@@ -1,0 +1,12 @@
+# Integration Map
+
+| Reliability Question | Diagnostic Candidate | Required Model Output | Integration Target | Activation Gate | Status |
+| -------------------- | -------------------- | --------------------- | ------------------ | --------------- | ------ |
+| Which layers become unstable first under structured corruption? | layer-wise activation statistics | Layer activations under clean and shifted inputs | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
+| Are latent directions changing under shift? | cosine similarity | Matched embeddings or hidden states across conditions | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
+| How do dominant latent components move under shift? | PCA / SVD | Embedding matrices or activation snapshots | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
+| Are representations similar across model variants? | CKA or comparable representation-similarity method | Matched layer activations from model variants | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
+| How do embeddings drift across corruption levels? | embedding-drift visualization | Embeddings, shift labels, and corruption intensity | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
+| Do prediction-only and prediction-reconstruction models differ internally? | prediction-reconstruction latent comparison | Matched latent outputs from both model variants | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
+| Do high-uncertainty samples cluster in latent space? | high-uncertainty sample geometry | Embeddings, uncertainty scores, and failure-case labels | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
+| Can a targeted intervention change the observed failure pattern? | intervention test | Pre-intervention and post-intervention model outputs | Reliable-AI-Research-Lab Week 7 representation note | Completed MVP shift stress tests and concrete diagnostic hypothesis | Candidate |
